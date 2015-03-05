@@ -139,6 +139,10 @@
     <%include file="include/comment_template.mako"/>
 % endif
 
+% if node['is_public']:
+    <%include file="include/share_project.mako"/>
+% endif
+
 <div class="row">
 
     <div class="col-sm-6 osf-dash-col">

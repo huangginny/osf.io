@@ -2348,3 +2348,11 @@ span#profileFullname{
   padding-right: 20px;
 
 }
+
+/* Social media sharing bar */
+#social-media-sharing {
+    position: fixed;
+    left: 2px;
+    top: 30%;
+    z-index: 999999;
+}
