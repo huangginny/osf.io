@@ -2356,3 +2356,8 @@ span#profileFullname{
     top: 30%;
     z-index: 999999;
 }
+
+#social-media-sharing a:hover {
+    text-decoration: none;
+    text-shadow: -1px 1px 2px grey;
+}
